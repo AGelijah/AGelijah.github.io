@@ -45,7 +45,7 @@
 		height: 100%;
 	}
 	#left-section {
-		width: 250px;
+		width: 100%x;
 		height: auto;
 		margin-left: 16px;
 		margin-right: 16px;
@@ -53,8 +53,8 @@
 	#hero-image-mobile,
 	#hero-image-container {
 		margin-top: 30px;
-		width: 300px;
-		height: 301px;
+		width: 100%;
+		height: auto;
 	}
 	#hero-image-tablet-desktop {
 		visibility: hidden;
@@ -109,16 +109,16 @@
 		height: 1695px;
 	}
 	#inner-main {
-		width: 250px;
+		width: 343px;
 		height: 1615px;
 		margin: auto;
 		display: grid;
-		grid-template-columns: 250px;
+		grid-template-columns: 343px;
 		grid-template-rows: repeat(6, 283px);
 		grid-row-gap: 50px;
 	}
 	.card {
-		width: 250px;
+		width: 343px;
 		height: 283px;
 		background: #ffffff;
 		box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
@@ -134,7 +134,7 @@
 	}
 	.inner-card-container {
 		position: relative;
-		width: 200px;
+		width: 250px;
 		height: 218px;
 		margin: 50px 20px;
 	}
@@ -163,7 +163,7 @@
 		color: #83869a;
 	}
 	#popular-course-card {
-		width: 250px;
+		width: 343px;
 		height: 120px;
 		margin-top: 100px;
 		background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
@@ -243,7 +243,7 @@
 		z-index: -1;
 		position: absolute;
 		background-image: url("/assets/image-hero-tablet.png");
-		right: -250px;
+		right: -150px;
 		top: -100px;
 		clip: rect(92px, 520px, 640px, 0px);
 	}
@@ -515,9 +515,9 @@
 	#main {
 		width: 100%;
 		height: 888px;
-		display: flex;
+		/* display: flex;
 		justify-content: center;
-		align-items: center;
+		align-items: center; */
 		background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
 	}
 	#inner-main {
