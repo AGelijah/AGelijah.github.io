@@ -1,4 +1,4 @@
-@media (max-width: 375px) {
+@media (max-width: 767px) {
 	body {
 		width: 375px;
 		height: auto;
@@ -175,7 +175,7 @@
 		color: #ffffff;
 	}
 }
-@media (min-width: 376px) {
+@media (min-width: 768px) {
 	body {
 		width: 768px;
 		height: auto;
@@ -377,9 +377,9 @@
 		color: #ffffff;
 	}
 }
-@media (min-width: 769px) {
+@media (min-width: 1024px) {
 	body {
-		width: 1360px;
+		width: 100%;
 		height: auto;
 		margin: 0px 0px 0px 0px;
 		overflow-x: hidden;
@@ -408,7 +408,6 @@
 		height: auto;
 	}
 	#hero-title {
-		font-family: "Plus Jakarta Sans";
 		font-style: normal;
 		font-weight: 800;
 		font-size: 56px;
@@ -417,7 +416,9 @@
 	}
 	#hero-text {
 		font-style: normal;
+		width: 400px;
 		font-weight: 500;
+		margin-top: -60px;
 		font-size: 18px;
 		line-height: 28px;
 		color: #83869a;
@@ -429,23 +430,23 @@
 	}
 	#left-section {
 		position: absolute;
-		width: 457px;
+		width: 45%;
 		height: auto;
 		left: 100px;
-		top: 252px;
+		top: 180px;
 	}
 	#hero-image-tablet-desktop,
 	#hero-image-container {
-		width: 992px;
-		height: 937px;
+		width: 55%;
+		height: 890px;
 	}
 	#hero-image-tablet-desktop {
 		z-index: -1;
 		position: absolute;
 		background-image: url("/assets/image-hero-desktop.png");
-		right: -350px;
+		right: -100px;
 		top: -200px;
-		clip: rect(146px, 656px, 937px, 0px);
+		clip: rect(146px, 656px, 890px, 0px);
 	}
 	#hero-image-mobile {
 		visibility: hidden;
@@ -512,14 +513,13 @@
 	#main {
 		width: 100%;
 		height: 888px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
+		margin: -150px 0px 0px 0px;
 		background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
 	}
 	#inner-main {
-		width: 1110px;
+		width: 90%;
 		height: 748px;
+		margin: auto auto auto 120px;
 		display: grid;
 		grid-template-columns: repeat(3, 350px);
 		grid-row-gap: 100px;
@@ -548,6 +548,8 @@
 	}
 	.course-more-info {
 		position: absolute;
+		cursor: pointer;
+		user-select: none;
 		font-style: normal;
 		font-weight: 700;
 		font-size: 18px;
@@ -555,6 +557,9 @@
 		color: #f74780;
 		left: 0px;
 		bottom: 0px;
+	}
+	.course-more-info:hover {
+		color: #ffa7c3;
 	}
 	.course-title {
 		font-style: normal;
